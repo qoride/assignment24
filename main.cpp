@@ -1,16 +1,11 @@
 #include <iostream>
 #include <limits>
+#include "struct.hpp"
 
 using namespace std;
 
 const char delimeter[2] = {'@','.'};
 const string domains[6] = {"com","org","gov","net","edu","mil"};
-
-struct Customer{
-    int ID;
-    string name;
-    string email;
-};
 
 int main(){
     bool accepted;
